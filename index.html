@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070914">
+  <meta name="description" content="Najil KK — Service Engineer and DevOps trainee portfolio.">
+  <title>NAJIL KK | Service Engineer & DevOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" id="progress"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="Najil home"><span class="brand-mark">N</span><span>NAJIL <b>KK</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <nav class="nav" id="nav">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#services">Services</a>
+      <a href="#experience">Experience</a><a href="#projects">Projects</a><a class="nav-cta" href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme"><i class="fa-solid fa-sun"></i></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Available for opportunities</div>
+        <p class="intro">HELLO, I'M</p>
+        <h1>NAJIL <span class="gradient-text">KK</span></h1>
+        <h2 class="role-line">I work with <span id="typedRole">Linux systems</span><span class="caret">|</span></h2>
+        <p class="hero-description">A Service Engineer with hands-on hardware experience, currently building skills in DevOps, Linux, Docker, cloud technologies and automation.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <i class="fa-solid fa-arrow-right"></i></a>
+          <a class="btn btn-outline" href="mailto:najilkk97@gmail.com"><i class="fa-regular fa-envelope"></i> Get in touch</a>
+        </div>
+        <div class="social-row">
+          <a href="https://wa.me/919746093884" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/naaa.jill/" target="_blank" rel="noopener" aria-label="Instagram naaa.jill"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/najill.ashraf/" target="_blank" rel="noopener" aria-label="Instagram najill.ashraf"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://linkedin.com/in/najil-kk-4212433b9" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card tilt">
+          <div class="card-top"><span class="live-label"><i class="fa-solid fa-circle"></i> PORTFOLIO / 2026</span><span class="card-dots">•••</span></div>
+          <div class="avatar"><i class="fa-solid fa-code"></i></div>
+          <h3>Service Engineer<br><span>& DevOps Trainee</span></h3>
+          <p class="muted">Hardware • Linux • Cloud • Automation</p>
+          <div class="terminal">
+            <div><span class="terminal-green">najil@portfolio</span>:~$ whoami</div>
+            <div class="terminal-output">Curious problem solver.</div>
+            <div><span class="terminal-green">najil@portfolio</span>:~$ <span class="terminal-caret">_</span></div>
+          </div>
+          <div class="card-tags"><span>Linux</span><span>Docker</span><span>Networking</span></div>
+        </div>
+        <div class="floating-chip chip-top"><i class="fa-brands fa-linux"></i> Linux</div>
+        <div class="floating-chip chip-bottom"><i class="fa-brands fa-docker"></i> Docker</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span>SCROLL TO EXPLORE</span><i class="fa-solid fa-arrow-down"></i></a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal"><p class="kicker">A LITTLE ABOUT ME</p><h2>Bridging <span class="gradient-text">hardware</span> and cloud.</h2><p>Practical technical support experience, combined with a growing interest in modern infrastructure and automation.</p></div>
+      <div class="about-grid">
+        <article class="glass-panel about-copy reveal">
+          <h3>Who I am</h3>
+          <p>I am a Diploma student in Computer Hardware Engineering from <strong>JDT Islam Polytechnic College, Kozhikode</strong>. I am currently training in DevOps at <strong>Zoople Technologies</strong>.</p>
+          <p>My background includes PC assembly, hardware diagnostics, operating-system deployment and network configuration. I am expanding into Linux administration, Docker, Git workflows, CI/CD and cloud fundamentals.</p>
+          <div class="facts"><div><i class="fa-solid fa-graduation-cap"></i><span><small>Education</small><b>Diploma — Computer Hardware Engineering</b></span></div><div><i class="fa-solid fa-location-dot"></i><span><small>Based in</small><b>Kozhikode, Kerala, India</b></span></div></div>
+        </article>
+        <aside class="glass-panel contact-mini reveal">
+          <p class="kicker">LET'S CONNECT</p><h3>Have a project or opportunity?</h3><p class="muted">Reach me directly for technical support, collaboration or career opportunities.</p>
+          <a class="contact-link" href="https://wa.me/919746093884" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp me <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <button class="contact-link copy-email" id="copyEmail"><i class="fa-regular fa-copy"></i> <span>Copy email address</span> <i class="fa-solid fa-copy"></i></button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal"><p class="kicker">WHAT I'M LEARNING</p><h2>Skills & <span class="gradient-text">toolkit</span></h2><p>Current learning areas and practical technical strengths.</p></div>
+      <div class="skill-grid">
+        <article class="skill-card glass-panel reveal"><i class="fa-brands fa-linux"></i><h3>Linux & Systems</h3><p>Linux CLI, users and permissions, SSH, shell basics and system administration.</p><div class="skill-meter"><span style="width:65%"></span></div><small>Actively practising</small></article>
+        <article class="skill-card glass-panel reveal"><i class="fa-brands fa-docker"></i><h3>Docker & Containers</h3><p>Container fundamentals, images, Dockerfiles and container workflows.</p><div class="skill-meter"><span style="width:45%"></span></div><small>In training</small></article>
+        <article class="skill-card glass-panel reveal"><i class="fa-brands fa-aws"></i><h3>Cloud Fundamentals</h3><p>Learning AWS concepts, cloud infrastructure and deployment basics.</p><div class="skill-meter"><span style="width:35%"></span></div><small>In training</small></article>
+        <article class="skill-card glass-panel reveal"><i class="fa-solid fa-code-branch"></i><h3>Git & CI/CD</h3><p>Version control, GitHub workflows and continuous integration concepts.</p><div class="skill-meter"><span style="width:50%"></span></div><small>In training</small></article>
+        <article class="skill-card glass-panel reveal"><i class="fa-solid fa-screwdriver-wrench"></i><h3>Hardware Service</h3><p>PC assembly, diagnostics, component upgrades and troubleshooting.</p><div class="skill-meter"><span style="width:85%"></span></div><small>Hands-on experience</small></article>
+        <article class="skill-card glass-panel reveal"><i class="fa-solid fa-network-wired"></i><h3>Networking</h3><p>LAN setup, router configuration, connectivity and printer sharing.</p><div class="skill-meter"><span style="width:70%"></span></div><small>Practical experience</small></article>
+      </div>
+      <p class="note reveal">Skill bars are indicative self-assessments, not certification scores.</p>
+    </section>
+
+    <section class="section" id="services">
+      <div class="section-heading reveal"><p class="kicker">HOW I CAN HELP</p><h2>Technical <span class="gradient-text">services</span></h2></div>
+      <div class="service-grid">
+        <article class="service-card glass-panel reveal"><span>01</span><i class="fa-solid fa-computer"></i><h3>Hardware troubleshooting</h3><p>Desktop and laptop diagnostics, component testing, RAM/SSD upgrades and PC assembly.</p></article>
+        <article class="service-card glass-panel reveal"><span>02</span><i class="fa-brands fa-windows"></i><h3>OS installation & maintenance</h3><p>Windows and Linux installation, driver setup, disk partitioning and system maintenance.</p></article>
+        <article class="service-card glass-panel reveal"><span>03</span><i class="fa-solid fa-network-wired"></i><h3>Network support</h3><p>Basic LAN setup, cable testing, router configuration and connectivity troubleshooting.</p></article>
+        <article class="service-card glass-panel reveal"><span>04</span><i class="fa-solid fa-microchip"></i><h3>IoT & smart hardware</h3><p>Academic prototyping with ESP8266, sensors, Python logic and messaging integrations.</p></article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="experience">
+      <div class="section-heading reveal"><p class="kicker">MY JOURNEY</p><h2>Training & <span class="gradient-text">experience</span></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="glass-panel timeline-card"><small>Current learning track</small><h3>DevOps Engineer Trainee</h3><h4>Zoople Technologies</h4><p>Training in Docker, CI/CD concepts, Linux configuration, AWS fundamentals and Git version control.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="glass-panel timeline-card"><small>3 months</small><h3>Service Engineer Trainee</h3><h4>Matrix IT World — Calicut</h4><p>Hands-on hardware diagnostics, desktop assembly, OS maintenance, driver installation and customer technical support.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="glass-panel timeline-card"><small>Jun 2025 – Jul 2025</small><h3>Technical Intern</h3><h4>GJ Global — Calicut Cyberpark</h4><p>Bootcamp exposure to AI, machine-learning fundamentals and Python development.</p></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="glass-panel timeline-card"><small>May 2024</small><h3>Technical Intern</h3><h4>Freston Analytics — Calicut Cyberpark</h4><p>Practical introduction to Python programming and algorithmic problem solving.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal"><p class="kicker">SELECTED WORK</p><h2>Featured <span class="gradient-text">project</span></h2></div>
+      <article class="project glass-panel reveal">
+        <div class="project-art"><div class="fingerprint"><i class="fa-solid fa-fingerprint"></i></div><div class="project-code">ESP8266 <span>+</span> PYTHON <span>+</span> SQL</div><div class="scan-line"></div></div>
+        <div class="project-info"><p class="kicker">HARDWARE & IoT</p><h3>Fingerprint ATM Security System</h3><p>Academic prototype combining an ESP8266 microcontroller, biometric fingerprint verification and a Python/SQL backend for user data management.</p><ul><li><i class="fa-solid fa-shield-halved"></i> Biometric verification with OTP-based second factor</li><li><i class="fa-brands fa-telegram"></i> Telegram API integration for OTP notifications</li><li><i class="fa-solid fa-database"></i> Python and SQL data handling</li></ul><div class="project-tags"><span>ESP8266</span><span>Biometrics</span><span>Python</span><span>SQL</span></div></div>
+      </article>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal"><p class="kicker">GET IN TOUCH</p><h2>Let's build something <span class="gradient-text">useful.</span></h2><p>Open to learning opportunities, technical roles and collaborations.</p></div>
+      <div class="contact-grid">
+        <div class="glass-panel contact-details reveal"><h3>Contact details</h3><a href="mailto:najilkk97@gmail.com"><i class="fa-regular fa-envelope"></i> najilkk97@gmail.com</a><a href="tel:+919746093884"><i class="fa-solid fa-phone"></i> +91 9746093884</a><a href="https://wa.me/919746093884" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a><a href="https://linkedin.com/in/najil-kk-4212433b9" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn profile</a><div class="social-row"><a href="https://www.instagram.com/naaa.jill/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="https://www.instagram.com/najill.ashraf/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></div></div>
+        <form class="glass-panel contact-form reveal" id="contactForm" action="https://formspree.io/f/mnpponjq" method="POST">
+          <div class="form-row"><label>Your name<input name="name" required autocomplete="name" placeholder="Full name"></label><label>Email address<input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label></div>
+          <label>Subject<input name="subject" required placeholder="How can I help?"></label>
+          <label>Message<textarea name="message" rows="5" required placeholder="Write your message..."></textarea></label>
+          <button class="btn btn-primary submit-btn" type="submit">Send message <i class="fa-solid fa-paper-plane"></i></button>
+          <p class="form-note" id="formNote">Your message will be sent through Formspree.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">N</span><span>NAJIL <b>KK</b></span></a><p>© <span id="year"></span> Najil KK. Built with curiosity and code.</p><a href="#top" class="back-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
